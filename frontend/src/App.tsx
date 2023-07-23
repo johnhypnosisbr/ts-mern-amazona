@@ -1,25 +1,20 @@
-import { useState } from "react";
-import "./App.css";
-import { sampleProducts } from "./data";
+import CompNavbar from "./components/Navbar";
+import CompProducts from "./components/Products"
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
-      <header>TS Amazona</header>
-      <main>
-        <ul>
-          {sampleProducts.map((product) => (
-            <li key={product.slug}>
-              <img className="product-img" src={product.image} />
-              <h2>{product.name}</h2>
-              <p>US$ {product.price}</p>
-            </li>
-          ))}
-        </ul>
-      </main>
-      <footer>All rights reserved</footer>
+      <header>
+        <CompNavbar />
+      </header>
+      <div className="d-flex flex-column vh-100">
+        <main>
+          <CompProducts />
+        </main>
+        <footer>
+          <div className="text-center">All rights reserved</div>
+        </footer>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import { Product } from "./types/Product";
 
-export const sampleProducts:Product[] = [
+export const sampleProducts: Product[] = [
     {
         name: "Nike Slim Shirt",
         slug: "nike-slim-shirt",
@@ -26,7 +26,7 @@ export const sampleProducts:Product[] = [
         numReview: 10
     },
     {
-        name: "Adidas Rio Track Pants",
+        name: "Adidas Rio Pants",
         slug: "adidas-rio-pants",
         category: 'Pants',
         image: "../img/pants/adidas-rio-pants-fr.png",
