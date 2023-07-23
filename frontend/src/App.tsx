@@ -1,5 +1,6 @@
+import { Container } from "react-bootstrap";
 import CompNavbar from "./components/Navbar";
-import CompProducts from "./components/Products"
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       </header>
       <div className="d-flex flex-column vh-100">
         <main>
-          <CompProducts />
+          <Container className="mt-3">
+            <Outlet />
+          </Container>
         </main>
         <footer>
           <div className="text-center">All rights reserved</div>

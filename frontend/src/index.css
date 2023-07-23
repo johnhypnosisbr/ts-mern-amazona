@@ -16,3 +16,8 @@
 .icon {
   max-width: 30px;
 }
+
+a {
+  text-decoration: none;
+  color: rgb(27, 27, 29)
+}
