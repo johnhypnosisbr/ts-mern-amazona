@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function CompNavbar() {
   return (
     <div>
-      <Navbar bg="primary" variant="dark" className="">
+      <Navbar bg="danger" variant="dark" className="fixed-top compnav">
         <Container>
           <Link style={{ textDecoration: 'none' }} to="/">
             <Navbar.Brand>
