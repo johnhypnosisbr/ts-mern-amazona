@@ -9,6 +9,7 @@ import { getError } from "../utils";
 import LoadingBox from "../components/LoadingBox";
 import MessageBox from "../components/MessageBox";
 import { ApiError } from "../types/ApiError";
+import CarouselFadeExample from "../components/Carousel";
 
 type State = {
     products: Product[],
@@ -69,11 +70,13 @@ function HomePage() {
         ) : (
             < div >
                 <h1>HOMEPAGE</h1>  <Container className="mt-3">
+                    <CarouselFadeExample />
                     <Row>
                         {products.map((product) => (
                             <Col className="" key={product.slug} sm={6} md={4} lg={3}>
                                 <Link style={{ textDecoration: 'none' }} to={'/product/' + product.slug}>
                                     <img className="rounded product-img" src={product.image} />
+                                    <p className="offer">23% off</p>
                                     <h3>{product.name}</h3>
                                     <p>US$ {product.price}</p>
 

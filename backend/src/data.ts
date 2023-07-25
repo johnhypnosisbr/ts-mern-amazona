@@ -50,18 +50,6 @@ export const sampleProducts: Product[] = [
         numReview: 11
     },
     {
-        name: "iPhone 14 Mini",
-        slug: "iphone-mini",
-        category: 'Tech',
-        image: "../img/tech/ip14-fr.png",
-        brand: 'Apple',
-        price: 1160,
-        countInStock: 10,
-        description: 'High quality phone',
-        rating: 4.4,
-        numReview: 11
-    },
-    {
         name: "Nike Socks",
         slug: "socks-nike",
         category: 'Pants',

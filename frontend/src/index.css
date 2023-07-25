@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,4 +34,24 @@ a {
 .compnav {
   box-shadow: 2px 2px 5px rgb(218, 218, 218);
   ;
+}
+
+.offer {
+  color: aqua;
+  background-color: rgba(0, 0, 0, .15);
+  font-size: 15px;
+  text-indent: 20px;
+  transform: translatey(-30px);
+  text-shadow: 1px 1px 4px black;
+  width: 50%;
+}
+
+.banner {
+  margin-bottom: 10px;
+}
+
+.imgbanner {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
 }
