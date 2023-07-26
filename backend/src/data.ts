@@ -26,7 +26,7 @@ export const sampleProducts: Product[] = [
         numReview: 10
     },
     {
-        name: "Adidas Rio Pants",
+        name: "Adidas Rio Pants For Women",
         slug: "adidas-rio-pants",
         category: 'Pants',
         image: "../img/pants/adidas-rio-pants-fr.png",
@@ -34,8 +34,8 @@ export const sampleProducts: Product[] = [
         price: 160,
         countInStock: 10,
         description: 'High quality sports pants',
-        rating: 4.1,
-        numReview: 12
+        rating: 2,
+        numReview: 120
     },
     {
         name: "Jeans Slim",
